@@ -499,9 +499,10 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  22.20
-    #define DEFAULT_Ki   1.08
-    #define DEFAULT_Kd 114.00
+    //Recv: echo:  M301 P19.56 I1.20 D66.00 C100.00 L20
+    #define DEFAULT_Kp  19.56
+    #define DEFAULT_Ki   1.20
+    #define DEFAULT_Kd 66.0
   #endif
 #endif // PIDTEMP
 
